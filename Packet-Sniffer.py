@@ -13,7 +13,14 @@ DATA_TAB_2 = '\t\t '
 DATA_TAB_3 = '\t\t\t '
 DATA_TAB_4 = '\t\t\t\t '
 
-print("Made by DevSpill\n")
+print("""
+                ____            _____       _ ____
+               / __ \___ _   __/ ___/____  (_) / /
+              / / / / _ \ | / /\__ \/ __ \/ / / / 
+             / /_/ /  __/ |/ /___/ / /_/ / / / /  
+Made by:    /_____/\___/|___//____/ .___/_/_/_/   
+                                 /_/              \n
+""")
 
 ip_filter = input(str("Input what ip you want to sniff for packets(input 0 for no filter): "))
 
